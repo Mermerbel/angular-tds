@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c86ee7;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#search {
+    padding: 0.5em;
+    width: 30%;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#notes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 0;
+    list-style-type: none;
+}
+
+#notes-list li {
+    background-color: #fde500;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#notes-list li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+#notes-list li p {
+    margin: 0.5em 0;
+}
+
+#notes-list li h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #c86ee7;
+}
+
+section{
+    text-align: center;
+}
+
+#note-content {
+    width: 30%;
+    height: 100px;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#tags-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tags-list li {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    margin-right: 0.5em;
+}
+
+#new-tag {
+    padding: 0.5em;
+    width: 30%;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#edit-tags button {
+    background-color: #ff6f61;
+}
+
+#edit-tags button:hover {
+    background-color: #e45a50;
+}
