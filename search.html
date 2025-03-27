@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Bloc notes</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div id="app">
+        <!-- Écran d'accueil -->
+        <section id="home">
+            <header>
+                <h1>Gestion des Notes</h1>
+                <input type="text" id="search" placeholder="Rechercher une note...">
+            </header>
+            <ul id="notes-list">
+<!--                <li><a href="#edit-note">Note 1</a></li>-->
+<!--                <li><a href="#edit-note">Note 2</a></li>-->
+            </ul>
+            <template id="TagInForm">
+                <label>
+                    <input type="checkbox" data-tag-id=""/>
+                    <span></span>
+                </label>
+            </template>
+            <button onclick="navigateTo('edit-note')">Créer une note</button>
+        </section>
+
+        <!-- Écran d'édition des tags -->
+
+    </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
